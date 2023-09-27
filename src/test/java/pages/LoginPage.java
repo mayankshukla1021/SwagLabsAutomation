@@ -22,5 +22,6 @@ public class LoginPage extends Base {
 	public void validate_error_msg() {
 		WebElement errmsg= driver.findElement(By.xpath("//h3[@data-test='error']"));
 		Assert.assertTrue(errmsg.isDisplayed());
+		// Test automation
 }
 }
